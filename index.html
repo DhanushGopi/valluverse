@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./styles/sheet1.css" />
+    <link rel="stylesheet" href="./styles/sheet2.css" />
+
+    <link rel="icon" type="image/x-icon" href="/img/favicon.svg" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VALLUVERSE</title>
+  </head>
+  <body>
+    <div class="valluverse">
+      <a href="#navbar" class="b2t">&#8593;</a>
+      <div class="navbar__sections--overlay">
+        <a class="navbar__section navbar__home" href="#hero">HOME</a>
+        <a class="navbar__section navbar__about" href="#about">ABOUT</a>
+        <a class="navbar__section navbar__explore" href="#explore"> EXPLORE </a>
+        <a
+          class="navbar__section navbar__contact"
+          href="https://dhanushgopi.github.io/DANSU/about.html"
+        >
+          CONTACT
+        </a>
+        <button class="overlay__close">X</button>
+      </div>
+      <div class="navbar" id="navbar">
+        <div class="navbar--cont">
+          <div class="navbar__logo">
+            <img
+              src="./img/vvlogo.svg"
+              class="navbar__logo--main"
+              alt="VALLUVERSE Logo"
+            />
+            <p class="logo--title">VALLUVERSE</p>
+          </div>
+          <div class="navbar__sections">
+            <a class="navbar__home" href="#hero">HOME</a>
+            <a class="navbar__about" href="#about">ABOUT</a>
+            <a class="navbar__explore" href="#explore"> EXPLORE </a>
+            <a
+              class="navbar__contact"
+              href="https://dhanushgopi.github.io/DANSU/about.html"
+            >
+              CONTACT
+            </a>
+          </div>
+          <div class="navbar__ham">
+            <p class="navbar__hamburger">&laquo;</p>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="hero" id="hero">
+          <div class="hero--cont">
+            <div class="hero__left">
+              <h1 class="title--text">
+                WELCOME<br />
+                TO<br />
+                <i>VALLUVERSE</i>
+              </h1>
+              <p class="normal--text">It will make you to feel the Words!</p>
+              <a href="#explore"
+                ><button class="primary--btn">EXPLORE</button></a
+              >
+            </div>
+          </div>
+          <div class="hero__right">
+            <img
+              class="hero__right--element"
+              src="./img/vve1.svg"
+              alt="Tamil Typography"
+            />
+          </div>
+        </div>
+        <div class="about" id="about">
+          <div class="about--content">
+            <h2 class="subtitle--text">ABOUT :</h2>
+            <p class="normal--text">
+              VALLUVERSE⚡ is an Open Course Platform. It has an Exclusive
+              Content of Literature like Thirukural etc. It will help the
+              scholars to check the standard of their Philology knowledge.
+              <br />
+              <br />
+              As an Beginning, It has only the Thirukural Recognition to help
+              the scholars to check their Knowledge and the Common People to
+              learn Philology free of cost. Also, It is an initiative “To make
+              the people, Read the Thirukural in the Modern Way.”
+            </p>
+          </div>
+        </div>
+        <div class="howtouse" id="howtouse">
+          <div class="howtouse--content">
+            <h2 class="subtitle--text">HOW TO USE :</h2>
+            <p class="normal--text">
+              1. Enter the Kural Number and Dispay will show the Chosen
+              Kural.<br />
+              2. Click, the Start button and Proununce the Kural Properly.<br />
+              3. It will show either you Pronounced Properly or Not!
+            </p>
+          </div>
+        </div>
+        <div class="explore" id="explore">
+          <div class="explore__lower">
+            <div class="explore__lower--cont explore__lower--hidden">
+              <div class="status--right status--text--right">
+                <p class="status--text">Perfectly Pronounced!</p>
+              </div>
+              <div class="status--wrong status--text--wrong">
+                <p class="status--text">Pronounce Properly!</p>
+              </div>
+            </div>
+          </div>
+          <div class="explore__upper">
+            <div class="explore__left">
+              <textarea
+                name="explore__display"
+                id="explore__display"
+                class="explore__display explore__display--left"
+                cols="30"
+                rows="10"
+              ></textarea>
+              <div class="explore__left--btn">
+                <input
+                  type="number"
+                  class="kural__number"
+                  placeholder="Kural Number"
+                />
+                <button class="kural__get">Gets!</button>
+                <button class="kural__refresh">&#8634;</button>
+              </div>
+            </div>
+            <div class="explore__right">
+              <textarea
+                name="explore__transcript"
+                id="explore__transcript"
+                class="explore__transcript"
+                cols="30"
+                rows="10"
+              ></textarea>
+              <div class="explore__right-btn">
+                <button class="explore__right-btn-start">🎤START</button>
+                <button class="explore__right-btn-stop">STOP</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="feedback">
+          <div class="feedback--cont">
+            <h2 class="feedback--text">WANNA GIVE FEEDBACK?</h2>
+            <a href="https://forms.gle/7KzDo5qiyXFbCUpK7"
+              ><button class="secondary-btn">Click!</button></a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="footer">
+        <div class="footer--cont">
+          <img
+            class="footer__logo"
+            src="./img/footerlogo.svg"
+            alt="valluverse Logo"
+          />
+          <p>© 2023 DhanushGopi. All right reserved.</p>
+          <p>Made with ❤️ by <i>DANSU⚡</i></p>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./script/script.js" type="module"></script>
+  <script src="./script/responsive.js"></script>
+</html>
