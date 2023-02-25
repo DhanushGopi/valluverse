@@ -506,3 +506,7 @@ button a {
   font-weight: 700;
   padding: 10px 0px;
 }
+
+.status--wrong{
+background: #red;
+}
