@@ -58,6 +58,11 @@ dansu.addEventListener("click", function () {
       document
         .querySelector(".status--right")
         .classList.remove("status--text--right");
+      document
+        .querySelector(".status--wrong")
+        .classList.add("status--text--wrong");
+      document.getElementById("explore__lower--cont").style.backgroundColor =
+        "#bdff00";
     } else {
       console.log("Wrong");
       console.log("inside the else" + selected);
@@ -66,6 +71,11 @@ dansu.addEventListener("click", function () {
       document
         .querySelector(".status--wrong")
         .classList.remove("status--text--wrong");
+      document
+        .querySelector(".status--right")
+        .classList.add("status--text--right");
+      document.getElementById("explore__lower--cont").style.backgroundColor =
+        "red";
     }
   });
 
