@@ -22,7 +22,7 @@
   </head>
   <body>
     <div class="valluverse" id="hero">
-      <a href="#navbar" class="b2t">&#8593;</a>
+      <a href="#hero" class="b2t">&#8593;</a>
       <div class="navbar__sections--overlay">
         <a class="navbar__section navbar__home" href="#hero">HOME</a>
         <a class="navbar__section navbar__about" href="#about">ABOUT</a>
@@ -35,14 +35,15 @@
         </a>
         <button class="overlay__close">X</button>
       </div>
-      <div class="navbar" id="navbar">
+      <div class="navbar">
         <div class="navbar--cont">
           <div class="navbar__logo">
-            <img
-              src="./img/vvlogo.svg"
-              class="navbar__logo--main"
-              alt="VALLUVERSE Logo"
-            />
+            <a href="#hero">
+              <img
+                src="./img/vvlogo.svg"
+                class="navbar__logo--main"
+                alt="VALLUVERSE Logo"
+            /></a>
             <p class="logo--title">VALLUVERSE</p>
           </div>
           <div class="navbar__sections">
@@ -70,7 +71,7 @@
                 TO<br />
                 <i>VALLUVERSE</i>
               </h1>
-              <p class="normal--text">It will make you to feel the Words!</p>
+              <p class="normal--text">It Will Make You Feel the Words!</p>
               <a href="#explore" id="about"
                 ><button class="primary--btn">EXPLORE</button></a
               >
@@ -88,73 +89,74 @@
           <div class="about--content">
             <h2 class="subtitle--text">ABOUT :</h2>
             <p class="normal--text">
-              VALLUVERSE⚡ is an Open Course Platform. It has an Exclusive
-              Content of Literature like Thirukural etc. It will help the
-              scholars to check the standard of their Philology knowledge.
+              VALLUVERSE⚡ is an Open Course Platform where you can explore
+              exclusive literature content like Thirukural, and test your
+              philology skills.
               <br />
               <br />
-              As an Beginning, It has only the Thirukural Recognition to help
-              the scholars to check their Knowledge and the Common People to
-              learn Philology free of cost. Also, It is an initiative “To make
-              the people, Read the Thirukural in the Modern Way.”
+              Starting with Thirukural recognition, we hope to support students,
+              scholars, and the general public in engaging with philology
+              and reading Thirukural modernly.
             </p>
           </div>
         </div>
-        <div class="howtouse" id="howtouse">
+        <div class="howtouse" id="explore">
           <div class="howtouse--content">
             <h2 class="subtitle--text">HOW TO USE :</h2>
-            <p class="normal--text" id="explore">
-              1. Enter the Kural Number and Dispay will show the Chosen
+            <p class="normal--text">
+              1. Enter the Kural number, and the display will show the chosen
               Kural.<br />
-              2. Click, the Start button and Proununce the Kural Properly.<br />
-              3. It will show either you Pronounced Properly or Not!
+              2. Click the Start button and pronounce the Kural properly.<br />
+              3. It will show whether you pronounced it properly or not.
             </p>
           </div>
         </div>
-        <div class="explore">
-          <div class="explore__lower">
-            <div
-              class="explore__lower--cont explore__lower--hidden"
-              id="explore__lower--cont"
-            >
-              <div class="status--right status--text--right">
-                <p class="status--text">Perfectly Pronounced!</p>
-              </div>
-              <div class="status--wrong status--text--wrong">
-                <p class="status--text">Pronounce Properly!</p>
-              </div>
-            </div>
-          </div>
-          <div class="explore__upper">
-            <div class="explore__left">
-              <textarea
-                name="explore__display"
-                id="explore__display"
-                class="explore__display explore__display--left"
-                cols="30"
-                rows="10"
-              ></textarea>
-              <div class="explore__left--btn">
-                <input
-                  type="number"
-                  class="kural__number"
-                  placeholder="Kural Number"
-                />
-                <button class="kural__get">Gets!</button>
-                <button class="kural__refresh">&#8634;</button>
+        <div class="explore__main">
+          <div class="explore">
+            <div class="explore__lower">
+              <div
+                class="explore__lower--cont explore__lower--hidden"
+                id="explore__lower--cont"
+              >
+                <div class="status--right status--text--right">
+                  <p class="status--text">Perfectly Pronounced!</p>
+                </div>
+                <div class="status--wrong status--text--wrong">
+                  <p class="status--text">Pronounce Properly!</p>
+                </div>
               </div>
             </div>
-            <div class="explore__right">
-              <textarea
-                name="explore__transcript"
-                id="explore__transcript"
-                class="explore__transcript"
-                cols="30"
-                rows="10"
-              ></textarea>
-              <div class="explore__right-btn">
-                <button class="explore__right-btn-start">START</button>
-                <button class="explore__right-btn-stop">STOP</button>
+            <div class="explore__upper">
+              <div class="explore__left">
+                <textarea
+                  name="explore__display"
+                  id="explore__display"
+                  class="explore__display explore__display--left"
+                  cols="30"
+                  rows="10"
+                ></textarea>
+                <div class="explore__left--btn">
+                  <input
+                    type="number"
+                    class="kural__number"
+                    placeholder="Kural Number"
+                  />
+                  <button class="kural__get">Gets!</button>
+                  <button class="kural__refresh">&#8634;</button>
+                </div>
+              </div>
+              <div class="explore__right">
+                <textarea
+                  name="explore__transcript"
+                  id="explore__transcript"
+                  class="explore__transcript"
+                  cols="30"
+                  rows="10"
+                ></textarea>
+                <div class="explore__right-btn">
+                  <button class="explore__right-btn-start">START</button>
+                  <button class="explore__right-btn-stop">STOP</button>
+                </div>
               </div>
             </div>
           </div>

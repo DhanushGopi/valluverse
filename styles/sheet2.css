@@ -1,4 +1,5 @@
 @media (min-width: 300px) and (max-width: 1000px) {
+  
   .navbar__sections--overlay {
     background-color: black;
     display: flex;
@@ -30,6 +31,7 @@
 
 @media (min-width: 300px) and (max-width: 500px) {
   /*navbar*/
+  
   .navbar__logo--main {
     width: 40px;
     height: 40px;
@@ -40,42 +42,60 @@
   }
 
   .navbar--cont {
-    padding: 25px 40px 20px 40px;
+    padding: 25px 0px 20px 0px;
+    width: 91%;
   }
 
   .navbar__hamburger {
     font-size: 30px;
     padding: 0px 10px 5px 10px;
     border-radius: 7px;
+    
   }
 
   /*Hero Section*/
-
+  .hero--cont{
+    width: 85%;
+  }
   .hero__left {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    width: 280px;
-    padding: 15px 20px 0px 20px;
+    width: 100%;
+    padding: 15px 0px 0px 0px;
     row-gap: 10px;
   }
-
-  .title--text {
-    font-size: 35px;
+  
+  .hero__left--element {
+    width: 85%;
+    
   }
-
+  .title--text {
+    font-size: 40px;
+  }
+  .hero__left .normal--text{
+    font-size: 20px;
+  }
+  
   .normal--text {
     font-size: 16px;
   }
-
+  
+  
+  .hero__right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .hero__right--element {
-    width: 300px;
+    width: 85%;
+    
   }
 
   .primary--btn {
     width: 150px;
-    font-size: 12px;
+    font-size: 16px;
     padding: 16px;
   }
 
@@ -83,13 +103,41 @@
   .subtitle--text {
     font-size: 30px;
   }
+  
+  .about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+  .about--content{
+    width: 85%;
+    padding: 15px 0px 0px 0px;
+  }
+  /* how to use */
+  .howtouse{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+  .howtouse--content{
+    width: 85%;
+    padding: 25px 0px 0px 0px;
+  }
   /*Explore Section*/
-
+  .explore__main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .explore{
+    width: 85%;
+  }
   .explore__upper {
     display: flex;
     justify-content: center;
-    padding: 25px 13%;
+    padding: 25px 9%;
     flex-wrap: wrap;
     row-gap: 50px;
   }
@@ -128,10 +176,10 @@
   }
 
   .explore__right-btn-start {
-    width: 300px;
+    width: 100%;
   }
   .explore__right-btn-stop {
-    width: 300px;
+    width: 100%;
   }
   /*Status Section*/
 
@@ -142,9 +190,15 @@
     font-size: 30px;
   }
   /*Feedback Section*/
-
+  .feedback{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .feedback--cont {
-    padding: 25px 13%;
+    width: 85%;
+    padding: 10px 10% ;
+    
   }
   .feedback--text {
     font-size: 30px;
@@ -154,6 +208,12 @@
     font-size: 16px;
     width: 200px;
   }
+
+  /* footer */
+  .footer--cont {
+  width: 85%;
+  padding: 50px 4% 40px 4%;
+}
 }
 
 /*

@@ -224,7 +224,7 @@ body::-webkit-scrollbar-thumb {
   color: #dddddd;
   font-size: 20px;
   font-weight: 500;
-  text-align: justify;
+  text-align: left;
 }
 
 .primary--btn {
@@ -469,7 +469,7 @@ body::-webkit-scrollbar-thumb {
 .feedback--text {
   font-size: 60px;
   font-weight: 900;
-  text-align: justify;
+  text-align: left;
   font-style: italic;
   padding: 20px;
 }
