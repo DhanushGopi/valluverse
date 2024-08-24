@@ -2,191 +2,167 @@
 
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <link rel="stylesheet" href="./styles/sheet1.css" />
-    <link rel="stylesheet" href="./styles/sheet2.css" />
 
-    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon" />
+<head>
+  <link rel="stylesheet" href="./styles/sheet1.css" />
+  <link rel="stylesheet" href="./styles/sheet2.css" />
+
+  <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon" />
 
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap" rel="stylesheet">
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
-    
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
 
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>VALLUVERSE</title>
-  </head>
-  <body>
-    <div class="valluverse" id="hero">
-      <a href="#hero" class="b2t">&#8593;</a>
-      <div class="navbar__sections--overlay">
-        <a class="navbar__section navbar__home" href="#hero">HOME</a>
-        <a class="navbar__section navbar__about" href="#about">ABOUT</a>
-        <a class="navbar__section navbar__explore" href="#explore"> EXPLORE </a>
-        <a
-          class="navbar__section navbar__contact"
-          href="https://dhanushgopi.github.io/"
-        >
-          CONTACT
-        </a>
-        <button class="overlay__close">X</button>
-      </div>
-      <div class="navbar">
-        <div class="navbar--cont">
-          <div class="navbar__logo">
-            <a href="#hero">
-              <img
-                src="./img/vvlogo.svg"
-                class="navbar__logo--main"
-                alt="VALLUVERSE Logo"
-            /></a>
-            <p class="logo--title">VALLUVERSE</p>
-          </div>
-          <div class="navbar__sections">
-            <a class="navbar__home" href="#hero">HOME</a>
-            <a class="navbar__about" href="#about">ABOUT</a>
-            <a class="navbar__explore" href="#explore"> EXPLORE </a>
-            <a
-              class="navbar__contact"
-              href="https://dhanushgopi.github.io/"
-            >
-              CONTACT
-            </a>
-          </div>
-          <div class="navbar__ham">
-            <p class="navbar__hamburger">&#9776;</p>
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="hero">
-          <div class="hero--cont">
-            <div class="hero__left">
-              <h1 class="title--text">
-                WELCOME<br />
-                TO<br />
-                <i>VALLUVERSE</i>
-              </h1>
-              <p class="normal--text">It Will Make You Feel the Words!</p>
-              <a href="#explore" id="about"
-                ><button class="primary--btn">EXPLORE</button></a
-              >
-            </div>
-          </div>
-          <div class="hero__right">
-            <img
-              class="hero__right--element"
-              src="./img/vve1.svg"
-              alt="Tamil Typography"
-            />
-          </div>
-        </div>
-        <div class="about">
-          <div class="about--content">
-            <h2 class="subtitle--text">ABOUT :</h2>
-            <p class="normal--text">
-              VALLUVERSE⚡ is an Open Course Platform where you can explore
-              exclusive literature content like Thirukural, and test your
-              philology skills.
-              <br />
-              <br />
-              Starting with Thirukural recognition, we hope to support students,
-              scholars, and the general public in engaging with philology
-              and reading Thirukural modernly.
-            </p>
-          </div>
-        </div>
-        <div class="howtouse" id="explore">
-          <div class="howtouse--content">
-            <h2 class="subtitle--text">HOW TO USE :</h2>
-            <p class="normal--text">
-              1. Enter the Kural number, and the display will show the chosen
-              Kural.<br />
-              2. Click the Start button and pronounce the Kural properly.<br />
-              3. It will show whether you pronounced it properly or not.
-            </p>
-          </div>
-        </div>
-        <div class="explore__main">
-          <div class="explore">
-            <div class="explore__lower">
-              <div
-                class="explore__lower--cont explore__lower--hidden"
-                id="explore__lower--cont"
-              >
-                <div class="status--right status--text--right">
-                  <p class="status--text">Perfectly Pronounced!</p>
-                </div>
-                <div class="status--wrong status--text--wrong">
-                  <p class="status--text">Please Try Again!</p>
-                </div>
-              </div>
-            </div>
-            <div class="explore__upper">
-              <div class="explore__left">
-                <textarea
-                  name="explore__display"
-                  id="explore__display"
-                  class="explore__display explore__display--left"
-                  cols="30"
-                  rows="10"
-                ></textarea>
-                <div class="explore__left--btn">
-                  <input
-                    type="number"
-                    class="kural__number"
-                    placeholder="Kural Number"
-                  />
-                  <button class="kural__get">Get Kural</button>
-                  <button class="kural__refresh">&#8634;</button>
-                </div>
-              </div>
-              <div class="explore__right">
-                <textarea
-                  name="explore__transcript"
-                  id="explore__transcript"
-                  class="explore__transcript"
-                  cols="30"
-                  rows="10"
-                ></textarea>
-                <div class="explore__right-btn">
-                  <button class="explore__right-btn-start">START</button>
-                  <button class="explore__right-btn-stop">STOP</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="feedback">
-          <div class="feedback--cont">
-            <h2 class="feedback--text">WANNA GIVE FEEDBACK?</h2>
-            <a href="https://forms.gle/7KzDo5qiyXFbCUpK7"
-              ><button class="secondary-btn">Click!</button></a
-            >
-          </div>
-        </div>
-      </div>
 
-      <div class="footer">
-        <div class="footer--cont">
-          <img
-            class="footer__logo"
-            src="./img/footerlogo.svg"
-            alt="valluverse Logo"
-          />
-          <p>© 2023 DhanushGopi. All right reserved.</p>
-          <p>Made with ❤️ by <span id="danzu">DANZU™️</span></p>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VALLUVERSE</title>
+</head>
+
+<body>
+  <div class="valluverse" id="hero">
+    <a href="#hero" class="b2t">&#8593;</a>
+    <div class="navbar__sections--overlay">
+      <a class="navbar__section navbar__home" href="#hero">HOME</a>
+      <a class="navbar__section navbar__about" href="#about">ABOUT</a>
+      <a class="navbar__section navbar__explore" href="#explore"> EXPLORE </a>
+      <a class="navbar__section navbar__contact" href="https://dhanushgopi.github.io/">
+        CONTACT
+      </a>
+      <button class="overlay__close">X</button>
+    </div>
+    <div class="navbar">
+      <div class="navbar--cont">
+        <div class="navbar__logo">
+          <a href="#hero">
+            <img src="./img/vvlogo.svg" class="navbar__logo--main" alt="VALLUVERSE Logo" /></a>
+          <p class="logo--title">VALLUVERSE</p>
+        </div>
+        <div class="navbar__sections">
+          <a class="navbar__home" href="#hero">HOME</a>
+          <a class="navbar__about" href="#about">ABOUT</a>
+          <a class="navbar__explore" href="#explore"> EXPLORE </a>
+          <a class="navbar__contact" href="https://dhanushgopi.github.io/">
+            CONTACT
+          </a>
+        </div>
+        <div class="navbar__ham">
+          <p class="navbar__hamburger">&#9776;</p>
         </div>
       </div>
     </div>
-  </body>
-  <script src="./script/script.js" type="module"></script>
-  <script src="./script/responsive.js"></script>
+    <div class="container">
+      <div class="hero">
+        <div class="hero--cont">
+          <div class="hero__left">
+            <h1 class="title--text">
+              WELCOME<br />
+              TO<br />
+              <i>VALLUVERSE</i>
+            </h1>
+            <p class="normal--text">It Will Make You Feel the Words!</p>
+            <a href="#explore" id="about"><button class="primary--btn">EXPLORE</button></a>
+          </div>
+        </div>
+        <div class="hero__right">
+          <img class="hero__right--element" src="./img/vve1.svg" alt="Tamil Typography" />
+        </div>
+      </div>
+      <div class="about">
+        <div class="about--content">
+          <h2 class="subtitle--text">ABOUT :</h2>
+          <p class="normal--text">
+            VALLUVERSE⚡ is an Open Course Platform where you can explore
+            exclusive literature content like Thirukural, and test your
+            philology skills.
+            <br />
+            <br />
+            Starting with Thirukural recognition, we hope to support students,
+            scholars, and the general public in engaging with philology
+            and reading Thirukural modernly.
+          </p>
+        </div>
+      </div>
+      <div class="howtouse" id="explore">
+        <div class="howtouse--content">
+          <h2 class="subtitle--text">HOW TO USE :</h2>
+          <p class="normal--text">
+            1. Enter the Kural number, and the display will show the chosen
+            Kural.<br />
+            2. Click the Start button and pronounce the Kural properly.<br />
+            3. It will show whether you pronounced it properly or not.
+          </p>
+        </div>
+      </div>
+      <div class="explore__main">
+        <div class="explore">
+          <div class="explore__lower">
+            <div class="explore__lower--cont explore__lower--hidden" id="explore__lower--cont">
+              <div class="status--right status--text--right">
+                <p class="status--text">Perfectly Pronounced!</p>
+              </div>
+              <div class="status--wrong status--text--wrong">
+                <p class="status--text">Please Try Again!</p>
+              </div>
+            </div>
+          </div>
+          <div class="explore__upper">
+            <div class="explore__left">
+              <textarea name="explore__display" id="explore__display" class="explore__display explore__display--left"
+                cols="30" rows="10"></textarea>
+              <div class="explore__left--btn">
+                <input type="number" class="kural__number" placeholder="Kural Number" />
+                <button class="kural__get">Get Kural</button>
+                <button class="kural__refresh">&#8634;</button>
+              </div>
+            </div>
+            <div class="explore__right">
+              <textarea name="explore__transcript" id="explore__transcript" class="explore__transcript" cols="30"
+                rows="10"></textarea>
+              <div class="explore__right-btn">
+                <button class="explore__right-btn-start">START</button>
+                <button class="explore__right-btn-stop">STOP</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="feedback">
+        <div class="feedback--cont">
+          <h2 class="feedback--text">WANNA GIVE FEEDBACK?</h2>
+          <a href="https://forms.gle/7KzDo5qiyXFbCUpK7"><button class="secondary-btn">Click!</button></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="footer--cont">
+        <img class="footer__logo" src="./img/footerlogo.svg" alt="valluverse Logo" />
+        <p>Made with ❤️ by <span id="danzu">DANZU™️</span></p>
+        <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title"
+            rel="cc:attributionURL" href="https://dhanushgopi.github.io/valluverse/">valluverse</a> by <a
+            rel="cc:attributionURL dct:creator" property="cc:attributionName"
+            href="https://dhanushgopi.github.io/">Dhanush Gopi </a> is licensed under <a
+            href="https://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1" target="_blank"
+            rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-ND 4.0<img
+              style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
+              src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img
+              style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
+              src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img
+              style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
+              src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt=""><img
+              style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
+              src="https://mirrors.creativecommons.org/presskit/icons/nd.svg?ref=chooser-v1" alt=""></a></p>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="./script/script.js" type="module"></script>
+<script src="./script/responsive.js"></script>
+
 </html>
